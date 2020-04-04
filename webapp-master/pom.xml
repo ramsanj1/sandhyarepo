@@ -17,6 +17,7 @@
   </dependencies>
   <build>
     <finalName>WebApp</finalName>
+ </build>
 <reporting>
   <plugins>
 	<!-- Normally, we take off the dependency report, saves time. -->
@@ -28,12 +29,11 @@
 			<dependencyLocationsEnabled>false</dependencyLocationsEnabled>
 		</configuration>
 	</plugin>
-
 	// integrate maven-cobertura-plugin to project site 
 	<plugin>
 		<groupId>org.codehaus.mojo</groupId>
 		<artifactId>cobertura-maven-plugin</artifactId>
-		<version>2.6</version>
+		<version>2.7</version>
 		<configuration>
 			<formats>
 				<format>html</format>
@@ -41,8 +41,6 @@
 			</formats>
 		</configuration>
 	</plugin>
-
    </plugins>
 </reporting>
-</build>
 </project>
