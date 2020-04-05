@@ -17,6 +17,7 @@
   </dependencies>
   <build>
     <finalName>WebApp</finalName>
+	</build>
 <reporting>
   <plugins>
 	<!-- Normally, we take off the dependency report, saves time. -->
@@ -40,6 +41,5 @@
 		</configuration>
 	</plugin>
    </plugins>
-</reporting>
-	</build>	  
+</reporting>	  
 </project>
