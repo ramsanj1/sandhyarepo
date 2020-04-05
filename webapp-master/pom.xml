@@ -17,11 +17,7 @@
   </dependencies>
   <build>
     <finalName>WebApp</finalName>
-<<<<<<< HEAD
 </build>
-=======
-  </build>
->>>>>>> df67fcd6f8174756ac210aab09c58932b240bc8e
 <reporting>
   <plugins>
 	<!-- Normally, we take off the dependency report, saves time. -->
@@ -32,13 +28,8 @@
 		<configuration>
 			<dependencyLocationsEnabled>false</dependencyLocationsEnabled>
 		</configuration>
-<<<<<<< HEAD
 	</plugin>
-	<plugin>
-=======
-	</plugin> 
 	  <plugin>
->>>>>>> df67fcd6f8174756ac210aab09c58932b240bc8e
 		<groupId>org.codehaus.mojo</groupId>
 		<artifactId>cobertura-maven-plugin</artifactId>
 		<version>2.7</version>
@@ -50,9 +41,5 @@
 		</configuration>
 	</plugin>
    </plugins>
-<<<<<<< HEAD
-</reporting>
-=======
 </reporting>	  
->>>>>>> df67fcd6f8174756ac210aab09c58932b240bc8e
 </project>
